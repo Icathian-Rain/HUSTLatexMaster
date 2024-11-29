@@ -122,10 +122,10 @@
 \setmainfont{Times New Roman}
 \RequirePackage{fontspec}
 % 论文封面使用华文中宋
-\setCJKfamilyfont{hwzs}{STZhongsong}
+\setCJKfamilyfont{hwzs}{STZhongsong.ttf}
 \newcommand{\huawenzhongsong}{\CJKfamily{hwzs}}
-\newfontfamily\hwzsAll{STZhongsong}[
-	BoldFont={STZhongsong},
+\newfontfamily\hwzsAll{STZhongsong.ttf}[
+	BoldFont={STZhongsong.ttf},
 	BoldFeatures={FakeBold=4}
 ]
 % 思源字体定义与使用
